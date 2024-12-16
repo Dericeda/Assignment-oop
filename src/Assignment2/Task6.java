@@ -5,11 +5,14 @@ public class Task6 {
         Scanner scanner = new Scanner(System.in);
         int sum = 0;
         while(true){
-            String userInput = scanner.nextLine();
-            if(userInput.equals("Enter")){
-                break;
-            }else{
-                sum+=Integer.parseInt(userInput);
+            if(scanner.hasNextInt()){
+                int number = scanner.nextInt();
+                sum+=number;
+            }else if(scanner.hasNextLine()){
+                String text = scanner.nextLine();
+                if(text.equals("Enter")){
+                    break;
+                }
             }
         }
         System.out.print(sum);

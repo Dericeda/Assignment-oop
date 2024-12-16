@@ -6,11 +6,15 @@ public class Task10 {
         int start = scanner.nextInt();
         int end = scanner.nextInt();
         int multiple = scanner.nextInt();
+
+        int sum = 0;
+
         for(int i = start; i <end;i++){
             if(i%multiple != 0){
                 continue;
             }else{
-                System.out.print(i);
+                sum+=i;
             }
         }
+        System.out.print(sum);
     }}
