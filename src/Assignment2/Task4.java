@@ -7,4 +7,5 @@ public class Task4 {
         if (age<=20 || age>=60){
             System.out.print("You don't have to work");
         }
+        scanner.close();
     }}

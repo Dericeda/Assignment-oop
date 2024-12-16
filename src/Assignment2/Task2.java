@@ -8,4 +8,5 @@ public class Task2 {
         if(age>=18 && age<=28){
             System.out.print(name+", come to the military registration and enlistment office");
         }
+        scanner.close();
     }}

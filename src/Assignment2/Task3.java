@@ -13,4 +13,5 @@ public class Task3 {
         } else if (isLow) {
             System.out.print("Low temperature");
         }else System.out.print("normal temperature");
+        scanner.close();
     }}

@@ -7,5 +7,6 @@ public class Task11 {
             }
             System.out.println();
         }
+
     }
 }

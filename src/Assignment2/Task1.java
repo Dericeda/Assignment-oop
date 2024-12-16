@@ -9,4 +9,5 @@ public class Task1 {
             System.out.print("it’s warm outside");
         }else
             System.out.print("it’s cold outside");
+        scanner.close();
     }}

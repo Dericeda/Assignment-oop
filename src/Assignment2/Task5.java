@@ -8,4 +8,5 @@ public class Task5 {
             System.out.println("I will never work for pennies.");
             i++;
         }
+        scanner.close();
     }}

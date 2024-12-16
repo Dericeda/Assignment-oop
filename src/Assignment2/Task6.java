@@ -16,4 +16,5 @@ public class Task6 {
             }
         }
         System.out.print(sum);
+        scanner.close();
     }}
